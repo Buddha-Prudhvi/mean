@@ -16,7 +16,7 @@ const RegisterSchema = new mongoose.Schema({
         type:String,
         require:true
     },
-    city:{
+    password:{
         type:String
     },
     dob:{
